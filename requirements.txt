@@ -1,5 +1,7 @@
 streamlit
 deep-translator
 pandas
-setuptools>=68.0.0
+setuptools==69.5.1
+wheel
+torch
 unbabel-comet
