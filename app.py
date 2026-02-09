@@ -1,4 +1,6 @@
 import streamlit as st
-from googletrans import Translator
+import sys
+#from googletrans import Translator
 
 st.write("Hi")
+st.write(sys.version)
