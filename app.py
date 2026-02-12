@@ -5,7 +5,7 @@ import pandas as pd
 @st.cache_resource
 def load_comet_model():
     from comet import download_model, load_from_checkpoint
-    model_path = download_model("Unbabel/wmt22-comet-da")
+    model_path = download_model("Unbabel/wmt20-comet-da")
     return load_from_checkpoint(model_path)
 
 st.title("Translation + COMET Score")
