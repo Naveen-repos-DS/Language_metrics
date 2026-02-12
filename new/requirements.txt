@@ -1,8 +1,0 @@
-streamlit
-deep-translator
-pandas
-setuptools==69.5.1
-wheel
---find-links https://download.pytorch.org/whl/cpu/torch_stable.html
-torch==2.2.1+cpu
-unbabel-comet==2.2.1

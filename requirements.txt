@@ -1,0 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.1+cpu
+streamlit
+deep-translator
+pandas
+setuptools==69.5.1
+wheel
+unbabel-comet==2.2.1
